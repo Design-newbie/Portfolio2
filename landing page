@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kathleen's Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #f4f4f4; /* Paper-like texture background */
+            margin: 0;
+            padding: 0;
+            color: #292B26;
+        }
+        header {
+            background-color: #2130AB;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #3145D8;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #6D8EEB;
+        }
+        section {
+            padding: 20px;
+        }
+        .about, .selected-design, .articles {
+            background-color: #fff;
+            border-radius: 8px;
+            margin: 20px 0;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .selected-design img, .articles img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .cute-element {
+            color: #BBDE50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Kathleen's Portfolio</h1>
+        <p>Product Designer with a passion for captivating and efficient designs.</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#selected-design">Selected Design</a>
+        <a href="#articles">Articles</a>
+    </nav>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            <span class="cute-element">👩‍🎨</span> Kathleen is a Product Designer with 2 years of experience adept at swiftly mastering complex concepts and translating them into visually captivating designs. Skilled in project management with a focus on facilitating seamless collaboration within agile teams.
+        </p>
+    </section>
+    <section id="selected-design" class="selected-design">
+        <h2>Selected Design</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Selected Design">
+        <p>
+            <span class="cute-element">🎨</span> Here is one of my favorite designs that showcases my ability to create user-friendly interfaces with a focus on aesthetics and functionality.
+        </p>
+    </section>
+    <section id="articles" class="articles">
+        <h2>Articles</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Article">
+        <p>
+            <span class="cute-element">✍️</span> Read my latest articles on design principles, user experience, and the latest trends in the product design industry.
+        </p>
+    </section>
+</body>
+</html>
